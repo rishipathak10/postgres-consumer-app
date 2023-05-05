@@ -34,7 +34,7 @@ public class DataSourceConfiguration {
 
 
     @Bean
-    @ConfigurationProperties("spring.datasource")
+//    @ConfigurationProperties("spring.datasource")
     public DataSource dataSource() {
         VcapServices vcapServices=gson.fromJson(vsJson,VcapServices.class);
 
