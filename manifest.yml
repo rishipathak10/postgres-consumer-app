@@ -6,4 +6,4 @@ applications:
       - https://github.com/cloudfoundry/java-buildpack.git
     random-route: true
     services:
-#    - SERVICE_INSTANCE
+    - pg_ins_01
